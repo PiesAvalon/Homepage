@@ -1,0 +1,21 @@
+{
+  "name": "jiatao-homepage",
+  "version": "0.1.0",
+  "private": true,
+  "description": "葛家韬的个人主页、博客、项目与学习资源。",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "preview": "vitepress preview docs"
+  },
+  "devDependencies": {
+    "vitepress": "1.6.4"
+  },
+  "overrides": {
+    "vite": "6.4.5"
+  }
+}
